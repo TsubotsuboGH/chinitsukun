@@ -1,0 +1,36 @@
+01. 以下のサイトを参考にeclipseを導入した
+    https://proengineer.internous.co.jp/content/columnfeature/4366#221
+02. 以下のサイトの「クラスの作成」部分まで実行した
+    https://www.sejuku.net/blog/74055
+03. クラスメソッドとインスタンスメソッドの違い
+    クラスメソッド -> インスタンスに関係ない処理。言い換えればthis不要（使用不可能）
+    インスタンスメソッド -> インスタンス依存。メソッドを呼び出す前にインスタンスの作成が必要ならこちら。
+    詳しくは以下。
+    https://qiita.com/tta0206/items/c32efa47dd758a3d36b4
+04. なぜか波括弧{}だけ補完されないので調査
+     -> Enter を押すだけだった
+05. package について調査
+     -> 例えば package test と書くと、そのファイルのクラスは test.class で import できる。
+        ファイルの先頭で宣言する。
+        以下も参照。
+        https://www.tohoho-web.com/java/package.htm
+06. 以下のサイトを参考に、タブを押したときにスペースに変換されるよう変更。
+    .txt と .java で異なるので注意。
+    https://it-jog.com/java/eclipse/eclipseblankconfig
+07. windowsのエクスプローラーで開く方法
+    https://freebsd.sing.ne.jp/tool/07/20.html
+08. ファイルの作成・コンパイル・実行の方法
+    http://www.ohshiro.tuis.ac.jp/~ohshiro/progaa/02_1/eclipse/new_file.html
+    http://www.ohshiro.tuis.ac.jp/~ohshiro/progaa/02_1/eclipse/compile.html
+09. error[public 型 ~~~ はそれ独自のファイル内に定義されなければなりません]の解消方法
+    00. http://androidfaq.w4c.work/status/35
+    01. Eclipseパッケージ・エクスプローラーなどで、クラス(java)ファイルを選択
+    02. 右クリック「リファクタリング」メニューから「名前変更」を選択し、変更内容の入力を実施
+    03. 「完了」をクリック
+10. インスタンスの作成
+    00. https://qiita.com/takahirocook/items/ec01cdcbb440cf0d1cc4
+    01. クラス名 インスタンス名(変数名) = new コンストラクタ名()
+         -> コンストラクタ名とクラス名は同じにすること！
+11. scanner のエラー
+    00. https://shino-life-blog.com/java-unassigned-closeable-value/
+    01. scanner.close()
